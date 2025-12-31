@@ -1,0 +1,12 @@
+{
+  "name": "front-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cd demo && npm run dev",
+    "start": "cd demo && npm run start",
+    "build": "cd demo && npm run build",
+    "lint": "cd demo && npm run lint",
+    "test": "cd demo && npm run test"
+  }
+}
