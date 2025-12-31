@@ -1,6 +1,7 @@
 # love-agent
 
 离线助老传呼 APP（面向老人场景的拨号辅助）：提供 110/120/119 快捷拨号、离线语音拨号（Vosk）、联系人管理与 SOS 连续呼叫等功能。语音匹配支持普通话与山东口音的常见发音偏差，并尽量降低同音误拨风险。
+功能按钮采用更简单的图形化，确保能做到每个功能通俗易懂
 
 ## 功能
 
@@ -116,4 +117,9 @@ npm run dev
 ```bash
 ./gradlew :app:lintDebug
 ./gradlew :app:assembleDebug
+```
+
+## 运行界面图片
+```
+![_cgi-bin_mmwebwx-bin_webwxgetmsgimg?? MsgID=4838249319436061128 skey=@crypt_4cf37048_800e1bc767ecc82043033d18d8f0eb33 mmweb_appid=wx_webfilehelper](https://github.com/user-attachments/assets/f7d11f67-e6e1-4b9f-b7a5-228f246086f2)
 ```
