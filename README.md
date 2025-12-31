@@ -1,6 +1,6 @@
-# ZhuLao / Love-agent
+# love-agent
 
-一款面向老人场景的拨号辅助 App：提供 110/120/119 快捷拨号、离线语音拨号（Vosk）、联系人管理与 SOS 连续呼叫等功能。语音匹配支持普通话与山东口音的常见发音偏差，并尽量降低同音误拨风险。
+离线助老传呼 APP（面向老人场景的拨号辅助）：提供 110/120/119 快捷拨号、离线语音拨号（Vosk）、联系人管理与 SOS 连续呼叫等功能。语音匹配支持普通话与山东口音的常见发音偏差，并尽量降低同音误拨风险。
 
 ## 功能
 
@@ -36,7 +36,7 @@
 
 ### Android Studio
 
-1. 用 Android Studio 打开项目根目录 `ZhuLao/`
+1. 用 Android Studio 打开项目根目录
 2. 等待 Gradle Sync 完成
 3. 选择 `app` 运行
 
@@ -116,17 +116,4 @@ npm run dev
 ```bash
 ./gradlew :app:lintDebug
 ./gradlew :app:assembleDebug
-```
-
-## 上传到 GitHub
-
-当前目录如果不是 Git 仓库，可以按以下步骤初始化并推送：
-
-```bash
-git init
-git add .
-git commit -m "init"
-git branch -M main
-git remote add origin <你的 GitHub 仓库地址>
-git push -u origin main
 ```
