@@ -122,4 +122,5 @@ npm run dev
 ## 运行界面图片
 ```
 ![_cgi-bin_mmwebwx-bin_webwxgetmsgimg?? MsgID=4838249319436061128 skey=@crypt_4cf37048_800e1bc767ecc82043033d18d8f0eb33 mmweb_appid=wx_webfilehelper](https://github.com/user-attachments/assets/f7d11f67-e6e1-4b9f-b7a5-228f246086f2)
+
 ```
